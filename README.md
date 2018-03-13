@@ -39,3 +39,4 @@ original coordinates.
  - The program reads the Results Table which is the list of coefficients calculated
 by an associated python script "findLWM.py" for the given control points.
 
+Documentation –– https://github.com/kxyoshida/Image-registration-LWM/wiki
