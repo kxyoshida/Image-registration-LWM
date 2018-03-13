@@ -1,7 +1,20 @@
 # Image-registration-LWM
 A set of programs to map images according to Goshtasby's local weighted mean method.
 
-findLWM.py
+
+"ImageRegistrationLWM.ijm"
+
+ - A collection of ImageJ macro functions to be used in the process of image registration.
+ 
+
+"Polish_Spot_Location_COM.java"
+
+ - An ImageJ plugin to be used to refine the locations of the peak points in subpixel accuracy.
+ 
+ - The plugin simply estimate the centre of mass within circle ROI specified by the radius. 
+
+
+"findLWM.py"
 
  - A python script to calculate the mapping coefficients used for 
 Goshtasby's local weighted mean method of image registration 
@@ -15,13 +28,13 @@ table listing the paired control points.
 
 
 
-Interpolate_LMW.java
+"Interpolate_LMW.java"
 
  - An ImageJ plugin filter for image registration based on Goshtasby's local
 weighted mean method (1988).
 
- - The plugin, when run against the active image, transform the target image to the
-original coordinates using local weighted mean method of Goshtasby (1988).
+ - The plugin, when run against the active image, transforms the target image to the
+original coordinates.
 
  - The program reads the Results Table which is the list of coefficients calculated
 by an associated python script "findLWM.py" for the given control points.
