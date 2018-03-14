@@ -12,6 +12,8 @@ A set of programs to map images according to Goshtasby's local weighted mean met
  - An ImageJ plugin to be used to refine the locations of the peak points in subpixel accuracy.
  
  - The plugin simply estimate the centre of mass within circle ROI specified by the radius. 
+ 
+ - Requires apache.commons library.
 
 
 "findLWM.py"
