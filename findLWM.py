@@ -4,7 +4,7 @@
 # Goshtasby's local weighted mean method of image registration 
 # (1988) from the given tab column tables of paired control points.
 #
-# The program requires two arguments –– names of the input and 
+# The program requires two arguments -- names of the input and 
 # output files. The input file is a tab-separated four-column 
 # table listing the paired control points.
 #
